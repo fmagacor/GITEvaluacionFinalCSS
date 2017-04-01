@@ -1,0 +1,500 @@
+body{
+  background-color: black;
+}
+/*CONTENEDORES PRINCIPALES*/
+
+.contenedor{
+  width: 90%;
+  height:80px;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #5b7989;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.contenedor2{
+  width: 90%;
+  height: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #82c3a6;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.contenedor3{
+  width: 90%;
+  height: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #d5c75f;
+  border-radius: 1px;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+.piePagina{
+  width: 90%;
+  height: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  margin: 0 auto;
+}
+
+.contenedor div {
+  box-sizing: border-box;
+}
+.contenedor2 div{
+  box-sizing: border-box;
+}
+.contenedor3 div{
+  box-sizing: border-box;
+}
+.piePagina div{
+  box-sizing: border-box;
+}
+/*FIN CONTENEDORES*/
+
+/*ENCABEZADO*/
+.titulo{
+    width: 63%;
+    margin: 0;
+  }
+
+.titulo h1{
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-shadow: 2px 2px 2px #02010a;
+    text-align: center;
+    height: 50%;
+    font-size: 2rem;
+  }
+
+#noactivo {
+      width: 9%;
+      height: 100%;
+      padding-top:  3em;
+      text-align: center;
+  }
+
+div [class*="enlace"]{
+    width: 9%;
+    height: 100%;
+    text-overflow: clip;
+    padding-top: 3em;
+    text-align: center;
+  }
+
+  #noactivo a{
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: #0040ff;
+    font-size: 1.5em;
+  }
+
+  .enlace1 a{
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 1.5em;
+  }
+  .enlace2 a{
+    text-decoration: none;
+    font-family:'Dancing Script', cursive;
+    color: white;
+    font-size: 1.5em;
+  }
+  .enlace3 a{
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 1.5em;
+  }
+  .enlace1 a:hover {
+   text-decoration: underline;
+   color: #80d4ff;
+   text-shadow: 2px 2px 2px #02010a;
+  }
+
+  .enlace2 a:hover {
+   text-decoration: underline;
+   color: #80d4ff;
+   text-shadow: 2px 2px 2px #02010a;
+  }
+
+  .enlace3 a:hover{
+   text-decoration: underline;
+   color: #80d4ff;
+   text-shadow: 2px 2px 2px #02010a;
+  }
+
+  div [class*="enlace"] a:active{
+   text-decoration: underline;
+    color:red;
+  }
+/*FIN ENCABEZADO*/
+
+/*IMAGEN ENCABEZADO*/
+
+.image1 img{
+    width: 70%;
+
+    padding-left: 10em;
+    margin: 0 auto;
+}
+/*FIN IMAGEN ENCABEZADO*/
+
+/*IMAGENES INTERMEDIAS*/
+.contPasaje{
+  width: 50%;
+  height: 0 auto;
+  margin: 0 auto ;
+}
+
+.contRetrato{
+  width: 50%;
+  height: 0 auto;
+  margin: 0 auto;
+
+}
+
+.contPasaje figure img{
+  width: 80% ;
+  height: 0 auto ;
+  margin: 0 auto ;
+  padding-left: 3em ;
+}
+
+.contPasaje figcaption{
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+}
+
+@-webkit-keyframes imagena {
+	 from{
+		transform: rotate(10deg);
+	     }
+	      to{
+		        height: 0 auto;
+	         }
+
+         }
+.contPasaje img:hover{
+	animation: imagena 1s;
+}
+.contPasaje{
+  background: #d5c75f;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear-in;
+}
+.contPasaje img:hover{
+	background: #82c3a6;
+  border: 2px;
+}
+.contRetrato figure img{
+  width: 80% ;
+  height: 0 auto ;
+  margin: 0 auto ;
+  padding-left: 3em ;
+}
+
+.contRetrato figcaption{
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+}
+
+.contRetrato{
+  background: #d5c75f;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear-in;
+}
+.contRetrato img:hover{
+	background: #82c3a6;
+  border: 2px;
+}
+
+.contRetrato img:hover {
+  transform: translate(20px,-5px);
+}
+
+.bloque1{
+  width: 30%;
+  height: 0 auto;
+  margin: 0 auto ;
+}
+.bloque2{
+  width: 30%;
+  height: 0 auto;
+  margin: 0 auto ;
+}
+.bloque3{
+  width: 30%;
+  height: 0 auto;
+  margin: 0 auto ;
+}
+.bloque4{
+  width: 30%;
+  height: 0 auto;
+  margin: 0 auto ;
+}
+.bloque5{
+  width: 30%;
+  height: 0 auto;
+  margin: 0 auto;
+}
+.bloque6{
+  width: 30%;
+  height: 0 auto;
+  margin: 0 auto ;
+}
+.bloque1 figure img{
+  width: 90% ;
+  height: 0 auto ;
+  margin: 0 auto ;
+}
+.bloque2 figure img{
+  width: 100% ;
+  height: 0 auto ;
+  margin: 0 auto ;
+}
+.bloque figure img{
+  width: 100% ;
+  height: 0 auto ;
+  margin: 0 auto ;
+}
+.bloque4 figure img{
+  width: 100% ;
+  height: 0 auto ;
+  margin: 0 auto ;
+}
+.bloque5 figure img{
+  width: 100% ;
+  height: 0 auto ;
+  margin: 0 auto ;
+}
+.bloque6 figure img{
+  width: 90% ;
+  height: 0 auto ;
+  margin: 0 auto ;
+}
+/*FIN IMAGENES INTERMEDIAS*/
+
+/*FOOTER*/
+
+
+.piePagina div{
+  font-family: 'Dancing Script', cursive;
+  font-size: 1em;
+  color: black;
+  text-align: center;
+}
+
+.contacto{
+  width: 25%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.termino{
+  width: 25%;
+  height: 200px;
+  margin: 0 auto;
+}
+.redesSociales{
+  width: 25%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.derechos {
+  width: 25%;
+  height: 200px;
+  height: 0 auto;
+  margin: 0 auto;
+}
+
+/*FIN FOOTER*/
+
+/*filtros*/
+.contenedor2 > figure{
+  -webkit-filter: drop-shadow(15px 20px 15px #02010a); /* Safari 6.0 - 9.0 */
+  filter: drop-shadow(15px 20px 15px #02010a);
+}
+.contPasaje img{
+  -webkit-filter: drop-shadow(15px 20px 15px #02010a); /* Safari 6.0 - 9.0 */
+  filter: drop-shadow(15px 20px 15px #02010a);
+}
+.contRetrato img{
+  -webkit-filter: drop-shadow(15px 20px 15px #02010a); /* Safari 6.0 - 9.0 */
+  filter: drop-shadow(15px 20px 15px #02010a);
+}
+.bloque1 {
+  -webkit-filter: blur(10px) drop-shadow(15px 20px 15px #02010a); /* Safari 6.0 - 9.0 */
+  filter: blur(10px) drop-shadow(15px 20px 15px #02010a);
+}
+.bloque6 img, .bloque4 img, .bloque2 img{
+  -webkit-filter: grayscale (100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.bloque2, .bloque4, .bloque6 {
+  -webkit-filter:sepia(90%) grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: drop-shadow(15px 20px 15px #02010a) grayscale(100%);
+}
+
+.bloque3 {
+  -webkit-filter:sepia(90%) drop-shadow(15px 20px 15px #02010a) ; /* Safari 6.0 - 9.0 */
+  filter:sepia(90%) drop-shadow(15px 20px 15px #02010a);
+}
+
+
+.bloque5 img{
+  -webkit-filter: drop-shadow(15px 20px 15px #02010a); /* Safari 6.0 - 9.0 */
+  filter: drop-shadow(15px 20px 15px #02010a);
+}
+
+/*Inicio del media query*/
+@media all and (max-width: 1024px) and (min-width:400px) {
+	.contenedor{
+		width: 100%;
+    min-height: 120px;
+    font-size: 1rem;
+	}
+
+  .contenedor2{
+    width: 100%;
+  }
+
+   .image1>img{
+    min-width: 80%;
+    margin-left: 0 auto;
+    padding-left: 1em !important;
+  }
+	.titulo {
+		width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    padding-top: 0em;
+	}
+  .titulo h1{
+		font-size: 1.8rem;
+	}
+
+  div [class*="enlace"]{
+    width: 33%;
+    height: 50%;
+    margin: 0 auto;
+    padding-top: 0em;
+    text-align: center;
+  }
+
+  #noactivo{
+    width: 33%;
+    height: 50%;
+    padding-top: 0em;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contenedor3{
+		width: 100%;
+    min-height: 120px;
+    font-size: .8rem;
+	}
+
+  .contPasaje{
+    width: 100%;
+    height: 0 auto;
+    order: 1;
+  }
+  .contenedor3 > figcaption{
+    text-align: right;
+  }
+  .contRetrato{
+    width: 100%;
+    height: 0 auto;
+    order: 2;
+  }
+  .piePagina{
+		width: 100%;
+	}
+
+   .piePagina div>h3{
+    color: blue;
+  }
+
+  .piePagina div>img{
+    width: 3%;
+  }
+
+  .contacto{
+    width: 100%;
+    height: 0 auto;
+    order: 1;
+  }
+
+  .termino{
+    width: 100%;
+    height: 0 auto;
+    order: 2;
+  }
+  .redesSociales{
+    width: 100%;
+    height: 0 auto;
+    order: 3;
+  }
+  .derechos{
+    width: 100%;
+    height: 0 auto;
+    order: 4;
+  }
+  .bloque1{
+    width: 70%;
+    height: 0 auto;
+    order: 1;
+  }
+  .bloque2{
+    width: 70%;
+    height: 0 auto;
+    order: 2;
+  }
+  .bloque3{
+    width: 70%;
+    height: 0 auto;
+    order: 3;
+  }
+  .bloque4{
+    width: 70%;
+    height: 0 auto;
+    order: 4;
+  }
+  .bloque5{
+    width: 70%;
+    height: 0 auto;
+    order: 5;
+  }
+  .bloque6{
+    width: 70%;
+    height: 0 auto;
+    order: 6;
+  }
+/*Fin del media query*/
+
+/*Animacion Slidein*/
+body {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+     0%   {margin-top: 150%;}
+     60%  {margin-top: -5%;}
+     100%  {margin-top: 0%;}
